@@ -1,0 +1,9 @@
+<template name="people">
+    <h2>All People</h2>
+    {{#each people}}
+    <div>
+        <h3><a href="{{personShowPath}}">{{name}}</a></h3>
+        <p>{{address}}</p>
+    </div>
+    {{/each}}
+</template>

@@ -1,0 +1,10 @@
+<template name="personShow">
+    <h2>Person Details</h2>
+    {{#with person}}
+    <div>
+        <h3>{{name}}</h3>
+        <p>{{address}}</p>
+    </div>
+    {{/with}}
+    <a href="{{peoplePath}}">All</a>
+</template>
